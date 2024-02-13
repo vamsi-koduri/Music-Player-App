@@ -22,7 +22,7 @@ function AudioList() {
 
   const changeFavourite = (id) => {
     Songs.forEach((song) => {
-      if (song.id == id) {
+      if (song.id === id) {
         song.favourite = !song.favourite;
       }
     });
